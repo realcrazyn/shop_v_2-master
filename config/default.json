@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUrl": "mongodb://alex:12345zaq@mongo-course-cluster-shard-00-00.ryeue.mongodb.net:27017,mongo-course-cluster-shard-00-01.ryeue.mongodb.net:27017,mongo-course-cluster-shard-00-02.ryeue.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-8ddufd-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "jwtSecret": "alex mern",
+  "baseUrl": "http://localhost:5000"
+}

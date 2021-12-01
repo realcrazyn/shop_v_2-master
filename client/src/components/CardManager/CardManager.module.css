@@ -1,0 +1,42 @@
+.manage_cardlist {
+}
+
+.cardlist_card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: grey 1px 1px 1px;
+  cursor: pointer;
+}
+
+.cardlist_card.active {
+  height: auto;
+}
+
+.cardlist_card.active .cardlist_card__title {
+  display: none;
+}
+
+.cardlist_card__title {
+  font-size: 20px;
+}
+
+.cardlist_card__img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cardlist_card__img img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cardlist_card__description {
+  height: 300px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  white-space: pre-line;
+}
